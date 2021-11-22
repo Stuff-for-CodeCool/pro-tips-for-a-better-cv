@@ -34,7 +34,7 @@ This is important. This code is what any potential employer will see, and you wi
 So, in order:
  
 1. Delete any files/folders that are not needed
-2. Anything that gets automatically generated but is not strictly needed to get the project going goes in the `.gitignore` file. This means virtual environments, cache files, build folders, IDE configurations, that sort of thing.
+2. Anything that gets automatically generated but is not strictly needed to get the project going goes in the `.gitignore` file. This means virtual environments, cache files, build folders, IDE configurations, that sort of thing. Unsure of what this file should contain? [Have a look here](https://github.com/github/gitignore)
 3. `git add`, `git commit` with relevant and descriptive commit messages.
 4. Any system-centric variable goes in a `.env` file. Do not leave API keys, users/passwords or any other project-specific data lying around, put it all in `.env`. This file will *also* go into `.gitignore` because you don't want to expose sensitive data.
 5. If you've created an `.env` file, also create a `.env.template` file. This will have all the keys needed and none of the values, and also it does NOT go into `.gitignore`. Its purpose is to help whoever wants to set up a copy of your project, by indicating which system variables the project expects.
@@ -47,7 +47,7 @@ So, in order:
 12. `git add`, `git commit`
 13. All the code should go through a linter. This will ensure your code is properly formatted, documented, and lacking any "spontaneous undocumented features" (ie, bugs).
 14. `git add`, `git commit`
-15. Did you refactor your code? Refactor again. Clean code is never clean enough.
+15. Did you refactor your code? Refactor again. Clean code is never clean enough. Make sure you follow naming conventions. You can find Google's reccomendations [here](https://google.github.io/styleguide/). Just look up the appropriate language, and search the naming conventions.
 16. `git add`, `git commit`
 17. Finally, show some love to your `README.md` file. What should go in there? What the rationale behind the project is, a short description, technologies used (PRO TIP: nobody cares what IDE you've used or how you've communicated with your team. Put in the languages used, any external applications (JAVA, Python, PostgreSQL, mongodb, that sort of thing), system requirements and such). Be sure to add step-by-step installation instructions.
 18. `git add`, `git commit`
