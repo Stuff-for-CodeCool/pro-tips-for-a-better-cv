@@ -45,7 +45,7 @@ So, in order:
 10. `git add`, `git commit`
 11. If you're generating any HTML files, run them through a code validator. [W3C's Unicorn](https://validator.w3.org/unicorn/#validate-by-input+task_conformance) is your best bet. Fix any errors indicated.
 12. `git add`, `git commit`
-13. All the code should go through a linter. This will ensure your code is properly formatted, documented, and lacking any "pontaneous undocumented fetures" (ie, bugs).
+13. All the code should go through a linter. This will ensure your code is properly formatted, documented, and lacking any "spontaneous undocumented fetures" (ie, bugs).
 14. `git add`, `git commit`
 15. Did you refactor your code? Refactor again. Clean code is never clean enough.
 16. `git add`, `git commit`
