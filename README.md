@@ -1,7 +1,5 @@
 # Pro Tips for a Better CV
 
-* * *
-
 ## Contents
 
 - [Introduction](#introduction)
