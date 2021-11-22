@@ -12,7 +12,7 @@ What you *should* do with it is to put these projects on your personal github pr
  
 ## Putting a repo on your Github profile
  
-First of all, you will want to clone the repo from the CC repo. To do this, simply `git clone` the repo.
+First of all, you will want to clone the repo from the CodeCool repo. To do this, simply `git clone` the repo.
  
 Then, on your Github profile, create a new repository with the appropriate name (for instance, `askmate`). In the folder where you've cloned the CodeCool repo. open a new terminal, and add the new remote:
  
@@ -34,7 +34,7 @@ This is important. This code is what any potential employer will see, and you wi
 So, in order:
  
 1. Delete any files/folders that are not needed
-2. Anything that gets automatically generated but is not strictly needed to get the project going goes in the `.gitignore` file. This means virtual environments, cache files, build folders, IDE configurations, that sort of thing. Unsure of what this file should contain? [Have a look here](https://github.com/github/gitignore)
+2. Anything that gets automatically generated but is not strictly needed to get the project going goes in the `.gitignore` file. This means virtual environments, cache files, build folders, IDE configurations, that sort of thing. Unsure of what this file should contain? [Have a look here](https://github.com/github/gitignore). This file can be also [created automatically](https://elanderson.net/2020/10/add-git-ignore-to-an-existing-visual-studio-solution-new-git-experience/), if you use Visual Studio.
 3. `git add`, `git commit` with relevant and descriptive commit messages.
 4. Any system-centric variable goes in a `.env` file. Do not leave API keys, users/passwords or any other project-specific data lying around, put it all in `.env`. This file will *also* go into `.gitignore` because you don't want to expose sensitive data.
 5. If you've created an `.env` file, also create a `.env.template` file. This will have all the keys needed and none of the values, and also it does NOT go into `.gitignore`. Its purpose is to help whoever wants to set up a copy of your project, by indicating which system variables the project expects.
