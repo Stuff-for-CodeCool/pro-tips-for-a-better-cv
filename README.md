@@ -55,6 +55,10 @@ So, in order:
 Once you've done all that and are fairly happy with the project and feel anyone is able to install it on their machine, push it to your Github repo.
  
 Now do this for all other projects you've enjoyed and/or are proud of.
+
+## Showing contributions to private repos
+
+Most of your commits will not be visible on your profile page, as they will be made to private repos. In order to show that you have, in fact, commited things, you will need to follow the steps outlined [here](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile/publicizing-or-hiding-your-private-contributions-on-your-profile)
  
 ## What's better than a CV?
  
