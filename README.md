@@ -14,7 +14,7 @@ What you *should* do with it is to put these projects on your personal github pr
  
 First of all, you will want to clone the repo from the CodeCool repo. To do this, simply `git clone` the repo.
  
-Then, on your Github profile, create a new repository with the appropriate name (for instance, `askmate`). In the folder where you've cloned the CodeCool repo. open a new terminal, and add the new remote:
+Then, on your Github profile, create a new repository with the appropriate name (for instance, `askmate`). Make sure this repo is set to **Public** (you can check this in an incognito window). In the folder where you've cloned the CodeCool repo, open a new terminal, and add the new remote:
  
 ```shell
 git remote add codecool https://github.com/you-username-here/your-cc-repo-here
